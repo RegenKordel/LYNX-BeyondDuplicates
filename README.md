@@ -18,10 +18,10 @@ The extracted versions can be found [here](https://www.dropbox.com/sh/aju49dmckg
 The script used to extract the data are also in this subfolder, ``data_extract.py`` and ``data_access.py``
 
 ### data_preprocessing
-Contains the jupyter notebooks to preprocess the data, this includes a the text cleaning for the ``title`` and ``description`` field and the cleaning of the link data from private issues and links which contain a private issue as well as ambiguous data, such as multiple different link types between two issues.
+Contains the jupyter notebooks to preprocess the data, this includes a the text cleaning for the ``title`` and ``description`` field and the cleaning of the link data from private issues and links which contain a private issue as well as ambiguous data, such as multiple different link types between two issues. This is done in ``Link_Preprocessing.ipynb``
 
 ### RQ1_link_analysis
-Contains the jupyter notebooks for Tables 1, 2, and 3 (AnalysisOfLinktypes.ipynb) and for Firgues 1 and 2 (AnalysisOfLinkCategories.ipynb) and the corresponding analysis. 
+Contains the jupyter notebooks for Tables 1, 2, and 3 (``AnalysisOfLinktypes.ipynb``) and for Firgues 1 and 2 (``AnalysisOfLinkCategories.ipynb``) and the corresponding analysis. 
 
 - [BeyondDuplicates - Categorization.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105539/BeyondDuplicates.-.Categorization.pdf) The links to the JIRA ITS of each project and the crawled JSON fields.
 - [BeyondDuplicates - OverviewLinkTypes.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105540/BeyondDuplicates.-.OverviewLinkTypes.pdf) An overview of which ITS use which link types prior to cleaning.
@@ -29,10 +29,10 @@ Contains the jupyter notebooks for Tables 1, 2, and 3 (AnalysisOfLinktypes.ipynb
 - [BeyondDuplicates - Usage.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105542/BeyondDuplicates.-.Usage.pdf) Categorization with examples and semantics from each of the ITS as well as the frequencies
  
 ### RQ2_gt_metrics
-Contains the jupyter notebooks for Tables 4 and 5 (LinkCategoryMetrics.ipynb) and the corresponding analysis.
+Contains the jupyter notebooks for Tables 4 and 5 (``LinkCategoryMetrics.ipynb``) and the corresponding analysis.
 
 ### RQ3_link_detection
-Contains the single-channel and dual-channel models (SingleChannel.ipynb, DualChannelOriginal.ipynb) used in this submission, as well as our results and their analysis (Results_SCCNN.ipynb and Results_DCCNN.ipynb).
+Contains the single-channel and dual-channel models (``SingleChannel.ipynb``, ``DualChannelOriginal.ipynb``) used in this submission, as well as our results and their analysis (``Results_SCCNN.ipynb`` and ``Results_DCCNN.ipynb``).
 
 # Python Packages
 Python Version: Python 3.8.10
@@ -64,7 +64,7 @@ Python Version: Python 3.8.10
 
 # Steps for Replication
 1. Download the extraced data from the dropboxlink provided and unzip it in the data folder.
-- Optional: Rerun "Link_Preprocessing.ipynb" to get the clean_link csv files
+- Optional: Rerun ``Link_Preprocessing.ipynb`` to get the clean_link csv files
 2. Install the python packages on your machine or in a virtual environments
 3. Run Jupyter Notebook, a gpu is recommended if you want to rerun the notebooks from RQ3 for larger projects
-4. Run the notebooks for RQ1, RQ2, or RQ3, they are independent from each other. RQ3 needs to run the SingleChannel.ipynb or DualChannelOriginal.ipynb before running the respective analysis
+4. Run the notebooks for RQ1, RQ2, or RQ3, they are independent from each other. RQ3 needs to run the ``SingleChannel.ipynb`` or ``DualChannelOriginal.ipynb`` before running the respective analysis
