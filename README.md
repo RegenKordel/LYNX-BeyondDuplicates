@@ -1,5 +1,6 @@
 # Lynx - Beyond Duplicates
-This repository contains the data, experiments, and analysis for the submission ``Beyond Duplicates: Towards a Better Understanding and Prediction of Link Types in Issue Tracking Systems''.
+This repository contains the data, experiments, and analysis for the submission "Beyond Duplicates: Towards a Better Understanding and Prediction of Link Types in Issue Tracking Systems".
+
 Upon acceptance this repository and its data will be made fully public on Zenodo and GitHub.
 
 ## Structure of the Repository
