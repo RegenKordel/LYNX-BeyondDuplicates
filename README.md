@@ -19,14 +19,10 @@ Contains the jupyter notebooks to preprocess the data, this includes a the text 
 ### RQ1_link_analysis
 Contains the jupyter notebooks for Tables 1, 2, and 3 (AnalysisOfLinktypes.ipynb) and for Firgues 1 and 2 (AnalysisOfLinkCategories.ipynb) and the corresponding analysis. 
 
-[BeyondDuplicates - Categorization.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105539/BeyondDuplicates.-.Categorization.pdf)
-The links to the JIRA ITS of each project and the crawled JSON fields.
-[BeyondDuplicates - OverviewLinkTypes.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105540/BeyondDuplicates.-.OverviewLinkTypes.pdf)
-An overview of which ITS use which link types prior to cleaning.
-[BeyondDuplicates - Projects.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105541/BeyondDuplicates.-.Projects.pdf)
-An overview of the unique link types with explanations.
-[BeyondDuplicates - Usage.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105542/BeyondDuplicates.-.Usage.pdf)
-Categorization with examples and semantics from each of the ITS as well as the frequencies
+- [BeyondDuplicates - Categorization.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105539/BeyondDuplicates.-.Categorization.pdf) The links to the JIRA ITS of each project and the crawled JSON fields.
+- [BeyondDuplicates - OverviewLinkTypes.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105540/BeyondDuplicates.-.OverviewLinkTypes.pdf) An overview of which ITS use which link types prior to cleaning.
+- [BeyondDuplicates - Projects.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105541/BeyondDuplicates.-.Projects.pdf) An overview of the unique link types with explanations.
+- [BeyondDuplicates - Usage.pdf](https://github.com/RegenKordel/LYNX-BeyondDuplicates/files/7105542/BeyondDuplicates.-.Usage.pdf) Categorization with examples and semantics from each of the ITS as well as the frequencies
  
 ### RQ2_gt_metrics
 Contains the jupyter notebooks for Tables 4 and 5 (LinkCategoryMetrics.ipynb) and the corresponding analysis.
