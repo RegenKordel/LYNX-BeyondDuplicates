@@ -1,5 +1,8 @@
 # Lynx - Beyond Duplicates
 This repository contains the data, experiments, and analysis for the submission ``Beyond Duplicates: Towards a Better Understanding and Prediction of Link Types in Issue Tracking Systems''.
+Upon acceptance this repository and its data will be made fully public on Zenodo and GitHub.
+
+## Structure of the Repository
 There are five subfolders;
 - data
 - data_preprocessing
@@ -7,11 +10,11 @@ There are five subfolders;
 - RQ2_link_gt_metrics
 - RQ3_link_detection
 
-## Structure of the Repository
-
 ### data
 Contains the data we used for our analysis and machine learning models.
-These were extracted with the needed properties from this [MongoDB dump](https://www.dropbox.com/sh/ma1hgeafg34chb2/AAD05Vc9H_shEbkFJ47jjv4Na)
+These were extracted with the needed properties from this [MongoDB dump](https://www.dropbox.com/sh/ma1hgeafg34chb2/AAD05Vc9H_shEbkFJ47jjv4Na).
+The extracted versions can be found [here](https://www.dropbox.com/sh/aju49dmckg7m39s/AAAm6X-ePQd8UNYfl8O3Dco2a?dl=0).
+The script used to extract the data are also in this subfolder, ``data_extract.py`` and ``data_access.py``
 
 ### data_preprocessing
 Contains the jupyter notebooks to preprocess the data, this includes a the text cleaning for the ``title`` and ``description`` field and the cleaning of the link data from private issues and links which contain a private issue as well as ambiguous data, such as multiple different link types between two issues.
