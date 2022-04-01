@@ -13,9 +13,8 @@ There are five subfolders;
 
 ### data
 Contains the data we used for our analysis and machine learning models.
-These were extracted with the needed properties from this [MongoDB dump](https://www.dropbox.com/sh/ma1hgeafg34chb2/AAD05Vc9H_shEbkFJ47jjv4Na).
-The extracted versions can be found [here](https://www.dropbox.com/sh/aju49dmckg7m39s/AAAm6X-ePQd8UNYfl8O3Dco2a?dl=0).
-The script used to extract the data are also in this subfolder, ``data_extract.py`` and ``data_access.py``
+These were extracted with the needed properties from this [MongoDB dump](https://zenodo.org/record/5901956#.Ykaz2hBBzzc).
+The script used to extract the data are in this subfolder, ``data_extract.py`` and ``data_access.py``
 
 ### data_preprocessing
 Contains the jupyter notebooks to preprocess the data, this includes a the text cleaning for the ``title`` and ``description`` field and the cleaning of the link data from private issues and links which contain a private issue as well as ambiguous data, such as multiple different link types between two issues. This is done in ``Link_Preprocessing.ipynb``
